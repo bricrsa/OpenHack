@@ -1,6 +1,6 @@
 $teamCount = Read-Host "How many teams are hacking?";
 #get-azlocation | Select Location, DisplayName | Format-Table
-$region = Read-Host "What Region Resources be deployed to (i.e. centralus, southcentralus, japaneast, etc)?";
+$region = "northeurope";
 
 for ($i = 1; $i -le $teamCount; $i++)
 {
